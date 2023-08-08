@@ -30,6 +30,10 @@ export interface AdapterOptions {
 		 */
 		exclude?: string[];
 	};
+	/**
+ 	* Extends the list of dependencies marked as 'external' by ESBuild 'build' process
+	*/
+	externalDependencies?: string[];
 }
 
 export interface RoutesJSONSpec {
